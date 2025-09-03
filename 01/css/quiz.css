@@ -1,0 +1,1778 @@
+#htmlShow{
+  width:100%;
+  height:100%;
+  /* background: blue; */
+}
+
+.quizType{
+  width:100%;
+  height:100%;
+  position: relative;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* 타입1 : A 일방 퀴즈 */
+#type1.typeA{
+  background: url("../img/quiz/01/01/A_background.png") no-repeat;
+  background-size: 1280px;
+}
+
+#type1.typeA .quiz{
+  width:100%;
+  height:100%;
+}
+
+#type1.typeA .phone1{
+  display: none;
+  position: absolute;
+  top:110px;
+  left:688px;
+  width:514px;
+  height:610px;
+  background: url(../img/quiz/01/01/phone.png);
+  background-size: 514px;
+  pointer-events: none;
+  z-index: 2;
+}
+
+#type1.typeA .phone2{
+  display: none;
+  position: absolute;
+  top:96px;
+  left:372px;
+  width:514px;
+  height:624px;
+  background: url(../img/quiz/01/01/phone2.png);
+  background-size: 514px;
+  pointer-events: none;
+  z-index: 2;
+}
+
+#type1.typeA .phone3{
+  display: none;
+  position: absolute;
+  top:96px;
+  left:372px;
+  width:514px;
+  height:624px;
+  background: url(../img/quiz/01/01/phone3.png);
+  background-size: 514px;
+  pointer-events: none;
+  z-index: 2;
+}
+#type1.typeA .phone4{
+  display: none;
+  position: absolute;
+  top:96px;
+  left:372px;
+  width:514px;
+  height:624px;
+  background: url(../img/quiz/01/01/phone4.png);
+  background-size: 514px;
+  pointer-events: none;
+  z-index: 2;
+}
+
+#type1.typeA .phone4{
+  display: none;
+  position: absolute;
+  top:96px;
+  left:372px;
+  width:514px;
+  height:624px;
+  background: url(../img/quiz/01/01/phone4.png);
+  background-size: 514px;
+  pointer-events: none;
+  z-index: 2;
+}
+
+/* 박대리 */
+#type1.typeA .human1{
+  display: none;
+  position: absolute;
+  top:96px;
+  left:44px;
+  width:632px;
+  height:604px;
+  background: url(../img/quiz/01/01/human1.png);
+  background-size: 632px;
+  pointer-events: none;
+  z-index: 2;
+}
+#type1.typeA .human2{
+  display: none;
+  position: absolute;
+  top:96px;
+  left:44px;
+  width:632px;
+  height:604px;
+  background: url(../img/quiz/01/01/human2.png);
+  background-size: 632px;
+  pointer-events: none;
+  z-index: 2;
+}
+/* 오답 박대리 */
+#type1.typeA .humanx1{
+  display: none;
+  position: absolute;
+  top:96px;
+  left:0px;
+  width:571px;
+  height:624px;
+  background: url(../img/quiz/01/01/human1_x1.png);
+  background-size: 571px;
+  pointer-events: none;
+  z-index: 2;
+}
+#type1.typeA .humanx2{
+  display: none;
+  position: absolute;
+  top:96px;
+  left:0px;
+  width:571px;
+  height:624px;
+  background: url(../img/quiz/01/01/human1_x2.png);
+  background-size: 571px;
+  pointer-events: none;
+  z-index: 2;
+}
+
+#type1.typeA .script1{
+  display: none;
+  position: absolute;
+  top:274px;
+  left:737px;
+  width:330px;
+  height:247px;
+  background: url(../img/quiz/01/01/script1.png);
+  background-size: 330px;
+  pointer-events: none;
+  z-index: 3;
+}
+
+#type1.typeA .script2{
+  display: none;
+  position: absolute;
+  top:540px;
+  left:814px;
+  width:300px;
+  height:108px;
+  background: url(../img/quiz/01/01/script2.png);
+  background-size: 300px;
+  pointer-events: none;
+  z-index: 3;
+}
+
+#type1.typeA .scripto1{
+  display: none;
+  position: absolute;
+  top:445px;
+  left:548px;
+  width:300px;
+  height:95px;
+  background: url(../img/quiz/01/01/script_o1.png);
+  background-size: 300px;
+  pointer-events: none;
+  z-index: 3;
+}
+
+#type1.typeA .scripto2{
+  display: none;
+  position: absolute;
+  top:560px;
+  left:421px;
+  width:377px;
+  height:97px;
+  background: url(../img/quiz/01/01/script_o2.png);
+  background-size: 377px 97px;
+  pointer-events: none;
+  z-index: 3;
+}
+
+#type1.typeA .scriptx1{
+  display: none;
+  position: absolute;
+  top:445px;
+  left:548px;
+  width:300px;
+  height:55px;
+  background: url(../img/quiz/01/01/script_x1.png);
+  background-size: 300px;
+  pointer-events: none;
+  z-index: 3;
+}
+
+#type1.typeA .scriptx2{
+  display: none;
+  position: absolute;
+  top:520px;
+  left:572px;
+  width:252px;
+  height:106px;
+  background: url(../img/quiz/01/01/script_x2.png);
+  background-size: 252px;
+  pointer-events: none;
+  z-index: 3;
+}
+
+#type1.typeA .scriptx3{
+  display: none;
+  position: absolute;
+  top:90px;
+  left:779px;
+  width:421px;
+  height:246px;
+  background: url(../img/quiz/01/01/script_x3.png);
+  background-size: 421px;
+  pointer-events: none;
+  z-index: 3;
+}
+
+#type1.typeA .btn1{
+  position: absolute;
+  top:284px;
+  left:96px;
+  width:534px;
+  height:241px;
+  background: url(../img/quiz/01/01/btn1.png);
+  background-size: 534px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+#type1.typeA .btn2{
+  position: absolute;
+  top:292px;
+  left:658px;
+  width:542px;
+  height:233px;
+  background: url(../img/quiz/01/01/btn2.png);
+  background-size: 542px;
+  cursor: pointer;
+  z-index: 2;
+}
+#type1.typeA .quiz1start{
+  position: absolute;
+  top: 468px;
+  left: 50%;
+  transform: translateX(-50%);
+  width:268px;
+  height:64px;
+  background: url(../img/quiz/01/01/quiz1A_start.png);
+  background-size: 268px;
+  cursor: pointer;
+  z-index: 1000000000000001;
+}
+#type1.typeA .quiz1start:hover{
+  background: url(../img/quiz/01/01/quiz1A_start_hover.png);
+  background-size: 268px;
+}
+
+#type1.typeA .quizchoice{
+  display: none;
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background: url(../img/quiz/01/01/quizchoice.png);
+  background-size: 1280px;
+  z-index: 1000000000000000;
+}
+#type1.typeA .quiz1clear{
+  display: none;
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background: url(../img/quiz/01/01/quiz1_answer.png);
+  background-size: 1280px;
+  z-index: 1000000000000000;
+}
+#type1.typeA .quiz1wrong{
+  display: none;
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background: url(../img/quiz/01/01/quiz1_wrong.png);
+  background-size: 1280px;
+  z-index: 1000000000000000;
+}
+
+#type1.typeA .resultbtn{
+  display: none;
+  position: absolute;
+  top: 442px;
+  left: 50%;
+  transform: translateX(-50%);
+  width:153px;
+  height:60px;
+  background: url(../img/quiz/01/01/next.png);
+  background-size: 153px;
+  cursor: pointer;
+  z-index: 1000000000000001;
+}
+#type1.typeA .resultbtn:hover{
+  background: url(../img/quiz/01/01/next_h.png);
+  background-size: 153px;
+}
+#type1.typeA .retry{
+  display: none;
+  position: absolute;
+  top: 422px;
+  left: 502px;
+  width:275px;
+  height:69px;
+  background: url(../img/quiz/01/01/retry.png);
+  background-size: 275px;
+  cursor: pointer;
+  z-index: 1000000000000001;
+}
+#type1.typeA .retry:hover{
+  background: url(../img/quiz/01/01/retry_h.png);
+  background-size: 275px;
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* 타입1 : B 일방 퀴즈 */
+#type1.typeB{
+  background: url("../img/quiz/01/02/B_background.png") no-repeat;
+  background-size: 1280px;
+}
+
+#type1.typeB .quiz{
+  width:100%;
+  height:100%;
+}
+#type1.typeB #quiz1content{
+  display: none;
+  width:100%;
+  height:100%;
+  background: url("../img/quiz/01/02/B_game_background.png");
+  background-size: 1280px;
+  position: relative;
+}
+
+#type1.typeB .quiz1start{
+  width:268px;
+  height:63px;
+  position: absolute;
+  top:65%;
+  left:50%;
+  background: url(../img/quiz/01/02/quiz1B_start.png);
+  background-size: 268px 63px;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+#type1.typeB .quiz1start:hover{
+  background: url(../img/quiz/01/02/quiz1B_start_hover.png);
+  background-size: 268px 63px;
+}
+
+
+#type1.typeB .object{
+  height:108px;
+  cursor: pointer;
+  position: absolute;
+}
+#type1.typeB .object1{
+  width:280px;
+  top:158px;
+  left:160px;
+  background: url(../img/quiz/01/02/object1.png);
+  background-size: 280px;
+}
+#type1.typeB .object2{
+  width:254px;
+  top:158px;
+  left:520px;
+  background: url(../img/quiz/01/02/object2.png);
+  background-size: 254px;
+}
+#type1.typeB .object3{
+  width:279px;
+  top:158px;
+  left:840px;
+  background: url(../img/quiz/01/02/object3.png);
+  background-size: 279px;
+}
+#type1.typeB .object4{
+  width:371px;
+  top:306px;
+  left:160px;
+  background: url(../img/quiz/01/02/object4.png);
+  background-size: 371px;
+}
+#type1.typeB .object5{
+  width:279px;
+  top:306px;
+  left:546px;
+  background: url(../img/quiz/01/02/object5.png);
+  background-size: 279px;
+}
+#type1.typeB .object6{
+  width:279px;
+  top:306px;
+  left:840px;
+  background: url(../img/quiz/01/02/object6.png);
+  background-size: 279px;
+}
+
+#type1.typeB .quiz1clear{
+  display: none;
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background: url(../img/quiz/01/02/quiz1_answer.png);
+  background-size: 1280px;
+  z-index: 1000000000000000;
+}
+#type1.typeB .quiz1wrong{
+  display: none;
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background: url(../img/quiz/01/02/quiz1_wrong.png);
+  background-size: 1280px;
+  z-index: 1000000000000000;
+}
+#type1.typeB .resultbtn{
+  display: none;
+  position: absolute;
+  top: 540px;
+  left: 564px;
+  width:153px;
+  height:60px;
+  background: url(../img/quiz/01/02/next.png);
+  background-size: 153px;
+  cursor: pointer;
+  z-index: 1000000000000001;
+}
+#type1.typeB .resultbtn:hover{
+  background: url(../img/quiz/01/02/next_h.png);
+  background-size: 153px;
+}
+
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* 타입2 : A 단일 정답 퀴즈 */
+
+#type2.typeA{
+  background: url("../img/quiz/02/01/A_background.png") no-repeat;
+  background-size: 1280px;
+}
+
+#type2.typeA .quiz{
+  width:100%;
+  height:100%;
+}
+#type2.typeA #quiz1content{
+  width:100%;
+  height:100%;
+  position: relative;
+}
+
+
+#type2.typeA .objectbox{
+  width:1146px;
+  height:295px;
+  position: absolute;
+  top:53.5%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+#type2.typeA .objectbox > ul{
+  display: flex;
+  justify-content: space-between;
+}
+
+#type2.typeA .object{
+  width:281px;
+  height:294px;
+  cursor: pointer;
+}
+#type2.typeA .object1{
+  background: url(../img/quiz/02/01/object1_o.png);
+  background-size: 281px;
+}
+#type2.typeA .object2{
+  background: url(../img/quiz/02/01/object2_o.png);
+  background-size: 281px;
+}
+#type2.typeA .object3{
+  background: url(../img/quiz/02/01/object3_o.png);
+  background-size: 281px;
+}
+#type2.typeA .object4{
+  background: url(../img/quiz/02/01/object4_o.png);
+  background-size: 281px;
+}
+
+#type2.typeA .quiz1clear{
+  display: none;
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background: url(../img/quiz/02/01/quiz1_answer.png);
+  background-size: 1280px;
+  z-index: 1000000000000000;
+}
+#type2.typeA .quiz1retry{
+  display: none;
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background: url(../img/quiz/02/01/quiz1_retry.png);
+  background-size: 1280px;
+  z-index: 1000000000000000;
+}
+#type2.typeA .quiz1wrong{
+  display: none;
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background: url(../img/quiz/02/01/quiz1_wrong.png);
+  background-size: 1280px;
+  z-index: 1000000000000000;
+}
+#type2.typeA .trashwarning{
+  display: none;
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background: url(../img/quiz/02/01/trashWarning.png);
+  background-size: 1280px;
+}
+#type2.typeA .result{
+  display: none;
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background: url(../img/quiz/02/01/result.png);
+  background-size: 1280px;
+  z-index: 1000000000000000;
+}
+#type2.typeA .resultbtn{
+  display: none;
+  position: absolute;
+  top: 550px;
+  left: 1080px;
+  width:153px;
+  height:60px;
+  background: url(../img/quiz/02/01/next.png);
+  background-size: 153px;
+  cursor: pointer;
+  z-index: 1000000000000001;
+}
+#type2.typeA .resultbtn:hover{
+  background: url(../img/quiz/02/01/next_h.png);
+  background-size: 153px;
+}
+#type2.typeA .intrash{
+  width:153px;
+  height:60px;
+  background: url(../img/quiz/02/01/yes.png);
+  background-size: 153px;
+  position: absolute;
+  top:420px;
+  left:470px;
+  cursor: pointer;
+}
+#type2.typeA .intrash:hover{
+  background: url(../img/quiz/02/01/yes_h.png);
+  background-size: 153px;
+}
+#type2.typeA .outtrash{
+  width:153px;
+  height:60px;
+  background: url(../img/quiz/02/01/no.png);
+  background-size: 153px;
+  position: absolute;
+  top:420px;
+  right:470px;
+  cursor: pointer;
+}
+#type2.typeA .outtrash:hover{
+  background: url(../img/quiz/02/01/no_h.png);
+  background-size: 153px;
+}
+
+#type2.typeA .trash{
+  position: absolute;
+  top:84%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  width: 196px;
+  height: 107px;
+  background: url(../img/quiz/02/01/trash_n.png);
+  background-size: 196px 107px;
+  cursor: pointer;
+  pointer-events: none;
+}
+#type2.typeA .trashment{
+  display: none;
+  position: absolute;
+  top: 81.5%;
+  left: 55%;
+  color:#3a3e61;
+  font-size: 24px;
+  animation: lr 1.2s linear infinite;
+  pointer-events: none;
+  font-family: 'sbaggro_m';
+}
+
+@keyframes lr {
+  0% { left: 55%; }
+  50% { left: 55.5%; }
+  100% { left: 55%; }
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* 타입2 : B 단일 정답 퀴즈 */
+
+#type2.typeB{
+  background: url("../img/quiz/02/02/B_background.png") no-repeat;
+  background-size: 1280px;
+  transition: 1s;
+}
+
+#type2.typeB .quiz{
+  width:100%;
+  height:100%;
+}
+#type2.typeB #quiz1content{
+  width:100%;
+  height:100%;
+  position: relative;
+}
+
+
+#type2.typeB .objectbox{
+  width: 1230px;
+  height: 426px;
+  position: absolute;
+  top: 63.7%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+#type2.typeB .objectbox > ul{
+  display: flex;
+  justify-content: space-between;
+}
+
+#type2.typeB .object{
+  width:294px;
+  height:410px;
+  cursor: pointer;
+}
+#type2.typeB .object1 .card .front{
+  background: url(../img/quiz/02/02/object1.png);
+  background-size: 294px 410px;
+}
+#type2.typeB .object2 .card .front{
+  background: url(../img/quiz/02/02/object2.png);
+  background-size: 294px 410px;
+}
+#type2.typeB .object3 .card .front{
+  background: url(../img/quiz/02/02/object3.png);
+  background-size: 294px 410px;
+}
+#type2.typeB .object4 .card .front{
+  background: url(../img/quiz/02/02/object4.png);
+  background-size: 294px 410px;
+}
+#type2.typeB .object1 .card .back{
+  background: url(../img/quiz/02/02/object1_o.png);
+  background-size: 294px 410px;
+}
+#type2.typeB .object2 .card .back{
+  background: url(../img/quiz/02/02/object2_o.png);
+  background-size: 294px 410px;
+}
+#type2.typeB .object3 .card .back{
+  background: url(../img/quiz/02/02/object3_o.png);
+  background-size: 294px 410px;
+}
+#type2.typeB .object4 .card .back{
+  background: url(../img/quiz/02/02/object4_o.png);
+  background-size: 294px 410px;
+}
+#type2.typeB .object .card{
+  width:100%;
+  height:100%;
+  position: relative;
+  transform-style: preserve-3d; /* 3D 공간에서 회전하도록 설정 */
+  transition: transform 0.6s; /* 회전 애니메이션 속도 */
+}
+#type2.typeB .object .card .front, #type2.typeB .object .card .back{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden; /* 뒷면이 보이지 않게 설정 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+#type2.typeB .object .card .back{
+  transform: rotateY(180deg);
+}
+
+#type2.typeB .object .flipped {
+  transform: rotateY(180deg);
+}
+
+#type2.typeB .quiz1clear{
+  display: none;
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background: url(../img/quiz/02/02/quiz1_answer.png);
+  background-size: 1280px;
+  z-index: 1000000000000000;
+}
+#type2.typeB .quiz1retry{
+  display: none;
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background: url(../img/quiz/02/02/quiz1_retry.png);
+  background-size: 1280px;
+  z-index: 1000000000000000;
+}
+#type2.typeB .quiz1wrong{
+  display: none;
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background: url(../img/quiz/02/02/quiz1_wrong.png);
+  background-size: 1280px;
+  z-index: 1000000000000000;
+}
+#type2.typeB .resultbtn{
+  display: none;
+  position: absolute;
+  top: 127px;
+  left: 1080px;
+  width:153px;
+  height:60px;
+  background: url(../img/quiz/02/02/next.png);
+  background-size: 153px;
+  cursor: pointer;
+  z-index: 1000000000000001;
+}
+#type2.typeB .resultbtn:hover{
+  background: url(../img/quiz/02/02/next_h.png);
+  background-size: 153px;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* 타입3 : A 복수 정답 퀴즈 */
+
+#type3.typeA{
+  background: url("../img/quiz/03/01/A_background.png") no-repeat;
+  background-size: 1280px;
+}
+
+#type3.typeA .quiz{
+  width:100%;
+  height:100%;
+}
+#type3.typeA #quiz1content{
+  display: none;
+  width:100%;
+  height:100%;
+  background: url("../img/quiz/03/01/A_game_background.png");
+  background-size: 1280px;
+  position: relative;
+}
+
+#type3.typeA .quiz1start{
+  width:268px;
+  height:63px;
+  position: absolute;
+  top:70%;
+  left:50%;
+  background: url(../img/quiz/03/01/quiz3A_start.png);
+  background-size: 268px 63px;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+#type3.typeA .quiz1start:hover{
+  background: url(../img/quiz/03/01/quiz3A_start_hover.png);
+  background-size: 268px 63px;
+}
+
+
+#type3.typeA .object{
+  position: absolute;
+  width:263px;
+  height:133px;
+  cursor: pointer;
+}
+/* 객체들 */
+#type3.typeA .object1{
+  background: url(../img/quiz/03/01/object1.png);
+  background-size: 263px 133px;
+  left:203px;
+  top:326px;
+}
+#type3.typeA .object2{
+  background: url(../img/quiz/03/01/object2.png);
+  background-size: 263px 133px;
+  left:511px;
+  top:326px;
+}
+#type3.typeA .object3{
+  background: url(../img/quiz/03/01/object3.png);
+  background-size: 263px 133px;
+  left:820px;
+  top:326px;
+}
+#type3.typeA .object4{
+  background: url(../img/quiz/03/01/object4.png);
+  background-size: 263px 133px;
+  left:203px;
+  top:469px;
+}
+#type3.typeA .object5{
+  background: url(../img/quiz/03/01/object5.png);
+  background-size: 263px 133px;
+  left:511px;
+  top:469px;
+}
+#type3.typeA .object6{
+  background: url(../img/quiz/03/01/object6.png);
+  background-size: 263px 133px;
+  left:820px;
+  top:469px;
+}
+/* 정답 */
+#type3.typeA .anwser{
+  position: absolute;
+  width:88px;
+  height:42px;
+  top:152px;
+  pointer-events: none;
+
+}
+#type3.typeA .anwser1{
+  background: url(../img/quiz/03/01/null.png);
+  background-size: 88px 42px;
+  left:368px;
+}
+#type3.typeA .anwser2{
+  background: url(../img/quiz/03/01/null.png);
+  background-size: 88px 42px;
+  left:504px;
+}
+#type3.typeA .quizclear{
+  display: none;
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background: url(../img/quiz/03/01/quiz1_answer.png);
+  background-size: 1280px;
+  z-index: 1000000000000000;
+}
+#type3.typeA .quizretry{
+  display: none;
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background: url(../img/quiz/03/01/quiz1_retry.png);
+  background-size: 1280px;
+  z-index: 1000000000000000;
+}
+
+#type3.typeA .resultbtn{
+  display: none;
+  position: absolute;
+  top: 590px;
+  left: 1076px;
+  width:153px;
+  height:60px;
+  background: url(../img/quiz/03/01/next.png);
+  background-size: 153px;
+  cursor: pointer;
+  z-index: 1000000000000002;
+}
+#type3.typeA .resultbtn:hover{
+  background: url(../img/quiz/03/01/next_h.png);
+  background-size: 153px;
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* 타입3 : B 복수 정답 퀴즈 */
+
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* 타입4 : A 클릭형 드래그앤드랍 */
+#type4.typeA{
+  background: url("../img/quiz/04/A_background.png") no-repeat;
+  background-size: 1280px;
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* 타입4 : B 클릭형 드래그앤드랍 */
+#type4.typeB{
+  background: url("../img/quiz/04/B_background.png") no-repeat;
+  background-size: 1280px;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* 타입5 : A 클릭형 선긋기 */
+#type5.typeA{
+  background: url("../img/quiz/05/01/A_background.png") no-repeat;
+  background-size: 1280px;
+}
+#type5.typeA .quiz{
+  width: 100%;
+  height: 100%;
+}
+
+#type5.typeA .containerbase{
+  width: 1100px;
+	height: 301px;
+  position: absolute;
+  top:269px;
+  left:100px;
+}
+
+#type5.typeA .container {
+	width: 1100px;
+	height: 301px;
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+#type5.typeA .left {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+#type5.typeA .right {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+#type5.typeA .boxL {
+  /* position: absolute; */
+	width: 244px;
+	height: 87px;
+	position: relative;
+}
+#type5.typeA #left1{background: url(../img/quiz/05/01/left1.png);background-size: 244px 87px;}
+#type5.typeA #left2{background: url(../img/quiz/05/01/left2.png);background-size: 244px 87px;}
+#type5.typeA #left3{background: url(../img/quiz/05/01/left3.png);background-size: 244px 87px;}
+#type5.typeA .boxR {
+  /* position: absolute; */
+	width: 687px;
+	height: 87px;
+	position: relative;
+}
+#type5.typeA #right1{background: url(../img/quiz/05/01/right1.png);background-size: 687px 87px;}
+#type5.typeA #right2{background: url(../img/quiz/05/01/right2.png);background-size: 687px 87px;}
+#type5.typeA #right3{background: url(../img/quiz/05/01/right3.png);background-size: 687px 87px;}
+#type5.typeA .circle {
+	width: 16px;
+	height: 16px;
+	position: absolute;
+  background: url(../img/quiz/05/01/circle.png);
+  background-size: 16px;
+	transform: translate(-50%, -50%);
+}
+
+#type5.typeA .box,#type5.typeA .circle{
+  cursor: pointer;
+}
+#type5.typeA .circleL1 { top: 50%; left: 106%; }
+#type5.typeA .circleL2 { top: 50%; left: 106%; }
+#type5.typeA .circleL3 { top: 50%; left: 106%; }
+#type5.typeA .circleR1 { top: 50%; right: 100.5%; }
+#type5.typeA .circleR2 { top: 50%; right: 100.5%; }
+#type5.typeA .circleR3 { top: 50%; right: 100.5%; }
+
+#type5.typeA canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+	pointer-events: none;
+	width: 100%;
+	height: 100%;
+}
+#type5.typeA #check-button {
+  display: none;
+	position: absolute;
+  width:120px;
+  height:48px;
+  cursor: pointer;
+  background: url(../img/quiz/05/01/check-button.png);
+  background-size: 120px;
+  left: 1086px;
+  top: 596px;
+}
+#type5.typeA #check-button:hover {
+  background: url(../img/quiz/05/01/check-button_h.png);
+  background-size: 120px;
+}
+
+#type5.typeA .quiz1clear{
+  display: none;
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background: url(../img/quiz/05/01/quiz1_answer.png);
+  background-size: 1280px;
+  z-index: 1000000000000000;
+}
+#type5.typeA .quiz1wrong{
+  display: none;
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background: url(../img/quiz/05/01/quiz1_wrong.png);
+  background-size: 1280px;
+  z-index: 1000000000000000;
+}
+#type5.typeA .quiz1retry{
+  display: none;
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background: url(../img/quiz/05/01/quiz1_retry.png);
+  background-size: 1280px;
+  z-index: 1000000000000000;
+}
+
+#type5.typeA .resultbtn{
+  display: none;
+  position: absolute;
+  top: 590px;
+  right: 83px;
+  width:153px;
+  height:60px;
+  background: url(../img/quiz/05/01/next.png);
+  background-size: 153px;
+  cursor: pointer;
+  z-index: 1000000000000001;
+  }
+  #type5.typeA .resultbtn:hover{
+  background: url(../img/quiz/05/01/next_h.png);
+  background-size: 153px;
+  }
+
+/* --------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* 타입5 : B 클릭형 선긋기 */
+#type5.typeB{
+  background: url("../img/quiz/05/B_background.png") no-repeat;
+  background-size: 1280px;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+/* 타입6 : A 카드 띄우기 */
+#type6.typeA{
+  background: url("../img/quiz/06/01/A_background.png") no-repeat;
+  background-size: 1280px;
+}
+
+
+#type6.typeA .quiz{
+  width:100%;
+  height:100%;
+}
+
+#type6.typeA .object{
+  position: absolute;
+  width:193px;
+  height:201px;
+  cursor: pointer;
+  background: url(../img/quiz/06/01/folder.png);
+  background-size: 193px 201px;
+}
+
+#type6.typeA .object1{left:220px;top:253px;}
+#type6.typeA .object2{left:436px;top:253px;}
+#type6.typeA .object3{left:652px;top:253px;}
+#type6.typeA .object4{left:868px;top:253px;}
+#type6.typeA .object5{left:112px;top:460px;}
+#type6.typeA .object6{left:328px;top:460px;}
+#type6.typeA .object7{left:544px;top:460px;}
+#type6.typeA .object8{left:759px;top:460px;}
+#type6.typeA .object9{left:975px;top:460px;}
+
+#type6.typeA .object > div{
+  position: relative;
+  width:100%;
+  height:100%;
+}
+
+#type6.typeA .paper{
+  display: none;
+  position: absolute;
+  width:159px;
+  height:197px;
+  top:-15px;
+  left:50%;
+  transform: translateX(-50%);
+  pointer-events: none;
+  animation: card 0.5s linear;
+}
+
+#type6.typeA .object1_paper{background: url(../img/quiz/06/01/object1.png);background-size: 159px 197px;}
+#type6.typeA .object2_paper{background: url(../img/quiz/06/01/object2.png);background-size: 159px 197px;}
+#type6.typeA .object3_paper{background: url(../img/quiz/06/01/object3.png);background-size: 159px 197px;}
+#type6.typeA .object4_paper{background: url(../img/quiz/06/01/object4.png);background-size: 159px 197px;}
+#type6.typeA .object5_paper{background: url(../img/quiz/06/01/object5.png);background-size: 159px 197px;}
+#type6.typeA .object6_paper{background: url(../img/quiz/06/01/object6.png);background-size: 159px 197px;}
+#type6.typeA .object7_paper{background: url(../img/quiz/06/01/object7.png);background-size: 159px 197px;}
+#type6.typeA .object8_paper{background: url(../img/quiz/06/01/object8.png);background-size: 159px 197px;}
+#type6.typeA .object9_paper{background: url(../img/quiz/06/01/object9.png);background-size: 159px 197px;}
+
+@keyframes card {
+0% { top: -3px;opacity: 0; }
+100% { top: -15px;opacity: 1; }
+}
+
+#type6.typeA .resultbtn{
+  display: none;
+  position: absolute;
+  top: 120px;
+  right: 74px;
+  width:153px;
+  height:60px;
+  background: url(../img/quiz/06/01/next.png);
+  background-size: 153px;
+  cursor: pointer;
+  z-index: 1000000000000001;
+}
+#type6.typeA .resultbtn:hover{
+  background: url(../img/quiz/06/01/next_h.png);
+  background-size: 153px;
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* 타입6 : B 카드 띄우기 */
+#type6.typeB{
+  background: url("../img/quiz/06/B_background.png") no-repeat;
+  background-size: 1280px;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* 타입7 : A 슬라이드 넘기기 */
+#type7.typeA{
+  background: url("../img/quiz/07/01/A_background.png") no-repeat;
+  background-size: 1280px;
+}
+
+#type7.typeA .quiz{
+  width:100%;
+  height:100%;
+}
+
+#type7.typeA .object{
+  position: absolute;
+  width:999px;
+  height:484px;
+  top:148px;
+  left:141px;
+  background:url(../img/quiz/07/01/junbeop1.png);
+  background-size:999px 484px;
+  pointer-events: none;
+  transition: 0.1s;
+}
+
+#type7.typeA .leftbtn{
+  display: none;
+  position: absolute;
+  width:35px;
+  height:68px;
+  top:327px;
+  left:75px;
+  background:url(../img/quiz/07/01/left_o.png);
+  background-size:35px 68px;
+  cursor: pointer;
+}
+#type7.typeA .leftbtn:hover{
+  background:url(../img/quiz/07/01/left_h.png);
+  background-size:35px 68px;
+}
+
+#type7.typeA .rightbtn{
+  display: none;
+  position: absolute;
+  width:35px;
+  height:68px;
+  top:327px;
+  right:75px;
+  background:url(../img/quiz/07/01/right_o.png);
+  background-size:35px 68px;
+  cursor: pointer;
+}
+#type7.typeA .rightbtn:hover{
+  background:url(../img/quiz/07/01/right_h.png);
+  background-size:35px 68px;
+}
+
+#type7.typeA .pagenum{
+  position: absolute;
+  top: 600px;
+  right: 48px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #494848;
+}
+#type7.typeA .click{
+  display: none;
+  position: absolute;
+  width:59px;
+  height:28px;
+  top:290px;
+  left:1168px;
+  pointer-events: none;
+  animation: tb 1.5s linear infinite;
+  background: url(../img/quiz/07/01/click.png);
+  background-size: 59px 28px;
+}
+@keyframes tb {
+  0% { top: 290px; }
+  25% { top: 280px; }
+  75% { top: 300px; }
+  100% { top: 290px; }
+}
+
+#type7.typeA .resultbtn{
+  display: none;
+  position: absolute;
+  top: 550px;
+  right: 14px;
+  width:100px;
+  height:39px;
+  background: url(../img/quiz/07/01/next.png);
+  background-size: 100px;
+  cursor: pointer;
+  z-index: 1000000000000001;
+}
+#type7.typeA .resultbtn:hover{
+  background: url(../img/quiz/07/01/next_h.png);
+  background-size: 100px;
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* 타입7 : B 슬라이드 넘기기 */
+#type7.typeB{
+  background: url("../img/quiz/07/B_background.png") no-repeat;
+  background-size: 1280px;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* 타입8 : A 상자에 받기 */
+#type8.typeA{
+  background: url("../img/quiz/08/A_background.png") no-repeat;
+  background-size: 1280px;
+}
+
+/* 게임 시작버튼 */
+#type8.typeA .boxstart{
+  width:268px;
+  height:63px;
+  position: absolute;
+  top:77%;
+  left:50%;
+  background: url(../img/quiz/08/box_start.png);
+  background-size: 268px 63px;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+#type8.typeA .boxstart:hover{
+  background: url(../img/quiz/08/box_start_hover.png);
+  background-size: 268px 63px;
+}
+
+/* 게임 최상단 영역 */
+#type8.typeA #boxcontent{
+  display: none;
+  width:100%;
+  height:100%;
+  background: url(../img/quiz/08/boxgame_background.png);
+}
+
+#type8.typeA #boxcontent:before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: 
+    radial-gradient(circle at 50% 75%, transparent, rgba(0,0,0,0.7));
+  z-index: 300;
+  pointer-events: none;
+}
+
+/* 게임 시작 전 카운트 영역 */
+#type8.typeA .countbox{
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:rgba(0,0,0,0.3);
+  z-index: 99999998;
+}
+
+#type8.typeA .numbercount{
+  pointer-events: none;
+  color: #fff;
+  font-size:150px;
+  position: absolute;
+  top:45%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+/* 본 게임 영역 */
+#type8.typeA .boxarea{
+  width:1280px;
+  height:720px;
+  position: relative;
+}
+
+/* 상자 */
+#type8.typeA #box {
+  width: 262px;
+  aspect-ratio: 1 / 0.53;  
+  background: 
+  url('../img/quiz/08/Box.png');
+  background-size: 262px;
+  position: absolute;
+  left: calc(50% - 132px);
+  top: 65%;
+  pointer-events: none;  
+  color: white;
+  z-index: 1;
+  transition: 0.3s;
+  /* animation: over 1s linear forwards; */
+}
+#type8.typeA #box:after {
+  content: '';
+  width: 100% ;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top:0;
+
+  filter: drop-shadow(0 0 1px white);
+}
+
+@keyframes over {
+  0% { top: 65%; }
+  30% { top: 60%; }
+  100% { top: 100%; }
+}
+
+#type8.typeA .object {
+  position: absolute;
+  top: -50px;
+  left: 0;
+  box-sizing: border-box;
+  z-index: 10000000001;
+}
+
+#type8.typeA .objectnum1 {
+  width: 170px;
+  height: 75px;
+  background: url(../img/quiz/08/object_1.png);
+  background-size: 170px 75px;
+}
+#type8.typeA .objectnum2 {
+  width:116px;
+  height:173px;
+  background: url(../img/quiz/08/object_2.png);
+  background-size: 116px 173px;
+}
+#type8.typeA .objectnum3 {
+  width:84px;
+  height:109px;
+  background: url(../img/quiz/08/object_3.png);
+  background-size: 84px 109px;
+}
+#type8.typeA .objectnum4 {
+  width:185px;
+  height: 74px;
+  background: url(../img/quiz/08/object_4.png);
+  background-size: 185px 74px;
+}
+#type8.typeA .objectnum5 {
+  width: 163px;
+  height: 75px;
+  background: url(../img/quiz/08/object_5.png);
+  background-size: 163px 75px;
+}
+#type8.typeA .objectnum6 {
+  width: 201px;
+  height: 105px;
+  background: url(../img/quiz/08/object_6.png);
+  background-size: 201px 105px;
+}
+
+/* 게임 재시작 */
+#type8.typeA .restart{
+  display: none;
+  pointer-events: auto;
+  position: absolute;
+  width:268px;
+  height:63px;
+  top:80%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  background: url(../img/quiz/08/box_replay_o.png);
+  background-size: 268px 63px;
+  cursor: pointer;
+}
+#type8.typeA .restart:hover{
+  background: url(../img/quiz/08/box_replay_c.png);
+  background-size: 268px 63px;
+}
+
+/* 타입8 상자에 받기 게임종료 다음으로 */
+#type8.typeA .type8finish{
+  display: none;
+  pointer-events: auto;
+  position: absolute;
+  width:153px;
+  height:60px;
+  top:80%;
+  left:50%;
+  background: url(../img/quiz/08/box_finish_o.png);
+  background-size: 153px 60px;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+#type8.typeA .type8finish:hover{
+  background: url(../img/quiz/08/box_finish_c.png);
+  background-size: 153px 60px;
+}
+/* 트랙 */
+#type8.typeA .track {
+  width: 100%;
+  max-width: 1000px;
+  height: 100%;
+  /*   outline: 1px solid red; */
+  margin: 0 auto;
+  position: relative;  
+  /* background:red; */
+  overflow: hidden;
+  /* box-shadow: inset 0 30px 25px 25px rgba(131,158,100, 0.1); */
+}
+
+/* 방향키 */
+#type8.typeA .arrow{
+  display: none;
+  position: absolute;
+  width:350px;
+  height:79px;
+  top:87.5%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999999999;
+}
+
+/* 방향키 고정구역 */
+#type8.typeA .arrow > div{
+  width:100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* 왼쪽 방향키 */
+#type8.typeA .arrow .arrowL{
+  width:79px;
+  height:79px;
+  cursor: pointer;
+  background: url(../img/quiz/08/arrow_left_o.png);
+  background-size: 79px;
+}
+
+#type8.typeA .arrow .arrowL:hover{
+  background: url(../img/quiz/08/arrow_left_c.png);
+  background-size: 79px;
+}
+
+
+/* 오른쪽 방향키 */
+#type8.typeA .arrow .arrowR{
+  width:79px;
+  height:79px;
+  cursor: pointer;
+  background: url(../img/quiz/08/arrow_right_o.png);
+  background-size: 79px;
+}
+
+#type8.typeA .arrow .arrowR:hover{
+  background: url(../img/quiz/08/arrow_right_c.png);
+  background-size: 79px;
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* 타입8 : B 상자에 받기 */
+#type8.typeB{
+  background: url("../img/quiz/08/B_background.png") no-repeat;
+  background-size: 1280px;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* 타입9 : A 단순 클릭 */
+#type9.typeA{
+  background: url("../img/quiz/09/01/A_background.png") no-repeat;
+  background-size: 1280px;
+  transition: 1s;
+}
+
+#type9.typeA .quiz{
+  width:100%;
+  height:100%;
+}
+
+#type9.typeA .click{
+  position: absolute;
+  top:604px;
+  left:1071px;
+  width:121px;
+  height:47px;
+  background: url(../img/quiz/09/01/click.png);
+  background-size: 121px;
+  cursor: pointer;
+  z-index: 1000000000000001;
+}
+#type9.typeA .click:hover{
+  background: url(../img/quiz/09/01/click_h.png);
+  background-size: 121px;
+}
+
+#type9.typeA .resultbtn{
+  display: none;
+  position: absolute;
+  top: 580px;
+  left: 1018px;
+  width:150px;
+  height:62px;
+  background: url(../img/quiz/09/01/next.png);
+  background-size: 150px 62px;
+  cursor: pointer;
+  z-index: 1000000000000001;
+}
+#type9.typeA .resultbtn:hover{
+  background: url(../img/quiz/09/01/next_h.png);
+  background-size: 150px  62px;
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* 타입9 : B 단순 클릭 */
+#type9.typeB{
+  background: url("../img/quiz/09/02/B_background.png") no-repeat;
+  background-size: 1280px;
+  transition: 1s;
+}
+
+#type9.typeB .quiz{
+  width:100%;
+  height:100%;
+}
+
+#type9.typeB .start{
+  position: absolute;
+  top:282px;
+  left:527px;
+  width:670px;
+  height:102px;
+  background: url(../img/quiz/09/02/start.png);
+  background-size: 670px;
+  cursor: pointer;
+  z-index: 1000000000000001;
+}
+#type9.typeB .start:hover{
+  background: url(../img/quiz/09/02/start_h.png);
+  background-size: 670px;
+}
+#type9.typeB .click{
+  display: none;
+  position: absolute;
+  top:604px;
+  left:1071px;
+  width:121px;
+  height:47px;
+  background: url(../img/quiz/09/02/click.png);
+  background-size: 121px;
+  cursor: pointer;
+  z-index: 1000000000000001;
+}
+#type9.typeB .click:hover{
+  background: url(../img/quiz/09/02/click_h.png);
+  background-size: 121px;
+}
+
+#type9.typeB .resultbtn{
+  display: none;
+  position: absolute;
+  top: 90px;
+  left: 1018px;
+  width:150px;
+  height:62px;
+  background: url(../img/quiz/09/02/next.png);
+  background-size: 150px 62px;
+  cursor: pointer;
+  z-index: 1000000000000001;
+}
+#type9.typeB .resultbtn:hover{
+  background: url(../img/quiz/09/02/next_h.png);
+  background-size: 150px 62px;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* 타입10 : 드래곤 공격 */
+
+#type10.typeA .quiz{
+  width:100%;
+  height:100%;
+}
+
+#type10.typeA .attackbtn{
+  position: absolute;
+  top:200px;
+  left:50%;
+  transform: translateX(-50%);
+  width:420px;
+  height:272px;
+  background: url(../img/quiz/10/attack.png);
+  background-size: 420px 272px;
+  cursor: pointer;
+  z-index: 1000000000000001;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* 레벨업 */
+
+.levelup{
+  display: none;
+  width:1280px;
+  height:720px;
+  position: absolute;
+  top:0;
+  left:0;
+  background: url(../img/quiz/levelup_bg.png);
+  background-size: 1280px;
+  z-index: 9999999999999999999999999999999999999999;
+}
+
+.gauge{
+  width:53px;
+  height:72px;
+  position: absolute;
+  top:565px;
+  left:118px;
+  background: url(../img/quiz/gauge.png);
+  background-size: 53px;
+  z-index: 3;
+  transition: 2s;
+}
+
+.leveluphuman{
+  width: 405px;
+  height: 548px;
+  position: absolute;
+  top: 50px;
+  left: 439px;
+  background: url(../img/quiz/human1up.png);
+  background-size: 405px;
+}
+
+.gaugebar{
+  width:220px;
+  height:17px;
+  position: absolute;
+  top:596px;
+  left:132px;
+  border: 2px solid #fff;
+  border-radius: 20px;
+}
+
+.gaugebase{
+  width:100%;
+  height:100%;
+  position: relative;
+}
+
+.energy{
+  width: 0%;
+  height: 100%;
+  float: left;
+  background: rgb(0,96,255);
+  background: linear-gradient(180deg, rgba(0,96,255,1) 0%, rgba(0,96,255,1) 55%, rgba(125,175,255,1) 78%, rgba(125,175,255,1) 100%);
+  border-radius: 20px;
+  transition: 2s;
+}
